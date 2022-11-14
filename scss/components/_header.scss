@@ -52,3 +52,40 @@
         }
     }
 }
+@media screen and (min-width:500px){
+    /* display:none */
+    .contenedor-menu , input {
+        display: none;
+    } 
+    #cabeza{
+        background-color: map-get($fondo-mobile, fondo-mobile-header);
+        padding:1vh;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        .cabeza__contenedor-titulo-menu{
+            margin: 0 10%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: baseline;
+            }
+        .cabeza__titulo{
+            color: white;
+            font-size: 30px;
+            font-family: 'Kanit', sans-serif;
+        }
+        .navmenu{
+            width:50%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            .navmenu__item{
+                text-decoration: none;
+                color: white;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 15px;
+            }
+        }
+    }
+}
