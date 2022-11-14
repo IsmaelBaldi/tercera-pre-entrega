@@ -1,0 +1,41 @@
+@import "../base/colores";
+
+    @media screen and (max-width:500px){
+    #app{
+        margin: 4vh 0;
+        background-color:map-get($fondo-mobile, fondo-mobile-header);
+        width: 100%;
+        .app__contenedor{
+            padding: 5vh 0;
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            justify-content: center;
+            .app__contenedor-img-titulo{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-evenly;
+                align-items: baseline;
+                .app__contenedor-logotipo{
+                    padding: 1vh;
+                    border-radius: 2vh;
+                    background-color: #1D6587;
+                    color: map-get($color-mobile, color-mobile-logotipo);
+                }
+                .app__titulo{
+                font-family: 'Heebo', sans-serif;
+                font-size: 20px;
+                }
+            }
+            .app__contenedor-subtitulo{
+                margin: 1vh 0;
+
+            }
+            .app__contendor-boton{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+            }
+        }
+    }    
+}
