@@ -1,0 +1,129 @@
+@import "../base/colores";
+@media screen and (max-width:500px){
+    #menu__nav{
+        margin-top: 2vh;
+        .menu__nav-contenedor-opciones{
+            padding: 0.4vh;
+            border-bottom: solid 0.8px rgb(134, 50, 54) ;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            .menu__nav-opciones{
+                list-style-type: none;
+                .menu-opcion{
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-family: 'Prompt', sans-serif;
+                    color: rgb(134, 50, 54);
+                }
+            }
+        }
+    }
+    #menu{
+        margin-top: 5vh;
+        .acompañamiento__contenedor{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            .bebida-papa-frita{
+                height: 12vh;
+                width: 12vh;
+            }
+        }
+        .acompañamiento__contenedor-subtitulo{
+            text-align: center;
+            .acompañamiento__subtitulo{
+                font-size: 17px;
+            }
+        }
+        .menu__contenedor-alimento-titulo{
+            padding: 0.5vh;
+            border-top: solid 0.5px rgb(134, 50, 54);
+            border-bottom: solid 0.5px rgb(134, 50, 54);
+        .menu__alimento-titulo{
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+            font-size: 28px;
+            color:rgb(86, 31, 34) ;
+            }
+        }
+        #carne{
+            margin-top: 3vh;
+            .carne__contenedor{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content:space-around;
+                
+                .menu__contendor-alimento{
+                    width: 35%;
+                    height: 35vh;
+                    .alimento{
+                        width: 100%;
+                        height: 80%;
+                    }    
+                    .contenedor-nombre{
+                        text-align: center;
+                        .nombre-alimento{
+                            font-family: 'Josefin Sans', sans-serif;
+                            color:rgb(86, 31, 34);
+                            font-size: 20px;
+                        }
+                    }               
+                }
+            }
+        }
+        #pollo{
+            margin-top: 3vh;
+            .pollo__contenedor{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content:space-around;
+                .menu__contendor-alimento{
+                    width: 35%;
+                    height: 35vh;
+                    .alimento{
+                        width: 100%;
+                        height: 80%;
+                    }    
+                    .contenedor-nombre{
+                        text-align: center;
+                        .nombre-alimento{
+                            font-family: 'Josefin Sans', sans-serif;
+                            color:rgb(86, 31, 34);
+                            font-size: 20px;
+                        }
+                    }               
+                }            
+            }
+        } 
+        #postres{
+            margin-top: 8vh;
+            .postres__contenedor{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content:space-around;
+                .menu__contendor-alimento{
+                    width: 35%;
+                    height: 35vh;
+                    .alimento{
+                        width: 100%;
+                        height: 80%;
+                    }    
+                    .contenedor-nombre{
+                        text-align: center;
+                        .nombre-alimento{
+                            font-family: 'Josefin Sans', sans-serif;
+                            color:rgb(86, 31, 34);
+                            font-size: 20px;
+                        }
+                    }               
+                }
+            }
+
+        }       
+    }
+}

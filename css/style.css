@@ -1,8 +1,10 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Mismos estilos */
 /* Background-color - Mobile */
 @media screen and (max-width: 500px) {
   #cabeza {
@@ -469,6 +471,134 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+  }
+}
+/* menu */
+/* Background-color - Mobile */
+@media screen and (max-width: 500px) {
+  #menu__nav {
+    margin-top: 2vh;
+  }
+  #menu__nav .menu__nav-contenedor-opciones {
+    padding: 0.4vh;
+    border-bottom: solid 0.8px rgb(134, 50, 54);
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  #menu__nav .menu__nav-contenedor-opciones .menu__nav-opciones {
+    list-style-type: none;
+  }
+  #menu__nav .menu__nav-contenedor-opciones .menu__nav-opciones .menu-opcion {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    color: rgb(134, 50, 54);
+  }
+  #menu {
+    margin-top: 5vh;
+  }
+  #menu .acompañamiento__contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #menu .acompañamiento__contenedor .bebida-papa-frita {
+    height: 12vh;
+    width: 12vh;
+  }
+  #menu .acompañamiento__contenedor-subtitulo {
+    text-align: center;
+  }
+  #menu .acompañamiento__contenedor-subtitulo .acompañamiento__subtitulo {
+    font-size: 17px;
+  }
+  #menu .menu__contenedor-alimento-titulo {
+    padding: 0.5vh;
+    border-top: solid 0.5px rgb(134, 50, 54);
+    border-bottom: solid 0.5px rgb(134, 50, 54);
+  }
+  #menu .menu__contenedor-alimento-titulo .menu__alimento-titulo {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 28px;
+    color: rgb(86, 31, 34);
+  }
+  #menu #carne {
+    margin-top: 3vh;
+  }
+  #menu #carne .carne__contenedor {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  #menu #carne .carne__contenedor .menu__contendor-alimento {
+    width: 35%;
+    height: 35vh;
+  }
+  #menu #carne .carne__contenedor .menu__contendor-alimento .alimento {
+    width: 100%;
+    height: 80%;
+  }
+  #menu #carne .carne__contenedor .menu__contendor-alimento .contenedor-nombre {
+    text-align: center;
+  }
+  #menu #carne .carne__contenedor .menu__contendor-alimento .contenedor-nombre .nombre-alimento {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(86, 31, 34);
+    font-size: 20px;
+  }
+  #menu #pollo {
+    margin-top: 3vh;
+  }
+  #menu #pollo .pollo__contenedor {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  #menu #pollo .pollo__contenedor .menu__contendor-alimento {
+    width: 35%;
+    height: 35vh;
+  }
+  #menu #pollo .pollo__contenedor .menu__contendor-alimento .alimento {
+    width: 100%;
+    height: 80%;
+  }
+  #menu #pollo .pollo__contenedor .menu__contendor-alimento .contenedor-nombre {
+    text-align: center;
+  }
+  #menu #pollo .pollo__contenedor .menu__contendor-alimento .contenedor-nombre .nombre-alimento {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(86, 31, 34);
+    font-size: 20px;
+  }
+  #menu #postres {
+    margin-top: 8vh;
+  }
+  #menu #postres .postres__contenedor {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  #menu #postres .postres__contenedor .menu__contendor-alimento {
+    width: 35%;
+    height: 35vh;
+  }
+  #menu #postres .postres__contenedor .menu__contendor-alimento .alimento {
+    width: 100%;
+    height: 80%;
+  }
+  #menu #postres .postres__contenedor .menu__contendor-alimento .contenedor-nombre {
+    text-align: center;
+  }
+  #menu #postres .postres__contenedor .menu__contendor-alimento .contenedor-nombre .nombre-alimento {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(86, 31, 34);
+    font-size: 20px;
   }
 }
 

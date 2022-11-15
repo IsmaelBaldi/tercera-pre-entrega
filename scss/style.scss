@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
-
+/* Mismos estilos */
 @import "./components/header";
 @import "./components/footer";
 /* index */
 @import "./components/main-index";
 @import "./components/section-galeria-index";
 @import "./components/app-index";
-
+/* menu */
+@import "./components/nav-menu.scss";
+@import "./components/main-menu.scss";
 
